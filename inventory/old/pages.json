@@ -1,0 +1,1369 @@
+{
+  "origin": "https://www.redcord.cz",
+  "crawledOn": "2026-11-02",
+  "pages": [
+    {
+      "path": "/",
+      "url": "https://www.redcord.cz/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Úvod - Redcord - Vybavení pro fyzioterapii a léčba",
+      "description": "Redcord - vybavení pro fyzioterapii jako závěsný systém pro odlehčení při práci s klientem nebo pro diagnostiku a aplikaci metody Neurac.",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/",
+      "h1": [],
+      "h2": [
+        "REDCORD MEDICAL PROFESSIONALS",
+        "REDCORD ACTIVE/SPORT PROFESSIONALS",
+        "REDCORD ACTIVE/SPORT INDIVIDUALS",
+        "O Redcordu®",
+        "O nás",
+        "PhDr. Mgr. Alice Hamáčková"
+      ],
+      "words": 1091,
+      "images": 10,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/bezpecnost/",
+      "url": "https://www.redcord.cz/bezpecnost/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Bezpečnost - Redcord - Bezpečnost používání vybavení Redcord",
+      "description": "Bezpečnost - informace o produktech a doplňcích vybavení Redcord AS. Bezpečnostní oznámení, technické kontroly, správná péče a údržba a školení.",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/bezpecnost/",
+      "h1": [
+        "Bezpečnost používání vybavení Redcord"
+      ],
+      "h2": [],
+      "words": 172,
+      "images": 2,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/bezpecnost/bezpecnostni-oznameni/",
+      "url": "https://www.redcord.cz/bezpecnost/bezpecnostni-oznameni/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/bezpecnost/"
+      ]
+    },
+    {
+      "path": "/bezpecnost/pece-a-udrzba/",
+      "url": "https://www.redcord.cz/bezpecnost/pece-a-udrzba/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/bezpecnost/"
+      ]
+    },
+    {
+      "path": "/bezpecnost/skoleni-bezpecnosti/",
+      "url": "https://www.redcord.cz/bezpecnost/skoleni-bezpecnosti/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/bezpecnost/"
+      ]
+    },
+    {
+      "path": "/bezpecnost/technicke-kontroly/",
+      "url": "https://www.redcord.cz/bezpecnost/technicke-kontroly/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/",
+        "/bezpecnost/"
+      ]
+    },
+    {
+      "path": "/fyzioterapeut/",
+      "url": "https://www.redcord.cz/fyzioterapeut/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/"
+      ]
+    },
+    {
+      "path": "/jednotlivec/",
+      "url": "https://www.redcord.cz/jednotlivec/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Jednotlivec - Redcord - REDCORD ACTIVE/SPORT PROFESSIONALS",
+      "description": "Jste jednotlivec - profesionální nebo hobby sportovec? Chcete zlepšit svou výkonnost, kondici, individuální trénink, cvičení doma dle cvičebního plánu?",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/jednotlivec/",
+      "h1": [
+        "Sportovec - jednotlivec"
+      ],
+      "h2": [
+        "REDCORD ACTIVE/SPORT INDIVIDUALS"
+      ],
+      "words": 234,
+      "images": 2,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/jednotlivec/"
+      ]
+    },
+    {
+      "path": "/kontakt/",
+      "url": "https://www.redcord.cz/kontakt/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Kontakt - Redcord -Výhradní zastoupení Redcord® pro ČR a SR",
+      "description": "Výhradní zastoupení Redcord® pro Českou a Slovenskou republiku, které zahrnuje obchodní oddělení, vzdělávání, vedení společnosti a referenční pracoviště.",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/kontakt/",
+      "h1": [
+        "Kontakt"
+      ],
+      "h2": [],
+      "words": 152,
+      "images": 1,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/kontaktujte-nas/",
+      "url": "https://www.redcord.cz/kontaktujte-nas/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/",
+        "/bezpecnost/",
+        "/jednotlivec/",
+        "/kontakt/"
+      ]
+    },
+    {
+      "path": "/kosik/",
+      "url": "https://www.redcord.cz/kosik/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Košík - Redcord",
+      "description": "",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/kosik/",
+      "h1": [
+        "Košík"
+      ],
+      "h2": [],
+      "words": 70,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/kosik/"
+      ]
+    },
+    {
+      "path": "/muj-ucet/",
+      "url": "https://www.redcord.cz/muj-ucet/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Můj účet - Redcord",
+      "description": "",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/muj-ucet/",
+      "h1": [
+        "Můj účet"
+      ],
+      "h2": [],
+      "words": 70,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/muj-ucet/"
+      ]
+    },
+    {
+      "path": "/neurac/",
+      "url": "https://www.redcord.cz/neurac/",
+      "status": 301,
+      "redirectTo": "/vzdelavani/neurac/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/",
+        "/vybaveni/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/neurac/certified-neurac-practitioner/",
+      "url": "https://www.redcord.cz/neurac/certified-neurac-practitioner/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/",
+        "/vzdelavani/neurac/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/"
+      ]
+    },
+    {
+      "path": "/neurac/kdo-jsou-certified-neurac-practitioners/",
+      "url": "https://www.redcord.cz/neurac/kdo-jsou-certified-neurac-practitioners/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Kdo jsou Certified Neurac Practitioners - Redcord - Přehled fyzioterapeutů",
+      "description": "Na této stránce můžete vidět, kteří z českých a slovenských fyzioterapeutů jsou certifikovanými poskytovati metody Neurac (Certified Neurac Provider).",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/neurac/kdo-jsou-certified-neurac-practitioners/",
+      "h1": [],
+      "h2": [
+        "Kdo jsou Certified NEURAC® Practitioners",
+        "PhDr. Mgr. Alice Hamáčková"
+      ],
+      "words": 254,
+      "images": 14,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/neurac/kdo-jsou-certified-neurac-practitioners/skamilla@seznam.cz/",
+      "url": "https://www.redcord.cz/neurac/kdo-jsou-certified-neurac-practitioners/skamilla@seznam.cz/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/neurac/kdo-jsou-certified-neurac-practitioners/"
+      ]
+    },
+    {
+      "path": "/neurac/lecba-neurac/",
+      "url": "https://www.redcord.cz/neurac/lecba-neurac/",
+      "status": 301,
+      "redirectTo": "https://www.redpoint-clinic.cz/fyzioterapie/#neurac",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/vzdelavani/neurac/"
+      ]
+    },
+    {
+      "path": "/obchod/",
+      "url": "https://www.redcord.cz/obchod/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Obchod - Redcord",
+      "description": "",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/obchod/",
+      "h1": [
+        "Obchod"
+      ],
+      "h2": [],
+      "words": 69,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/obchod/"
+      ]
+    },
+    {
+      "path": "/pokladna/",
+      "url": "https://www.redcord.cz/pokladna/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Pokladna - Redcord",
+      "description": "",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/pokladna/",
+      "h1": [
+        "Pokladna"
+      ],
+      "h2": [],
+      "words": 70,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/pokladna/"
+      ]
+    },
+    {
+      "path": "/trener/",
+      "url": "https://www.redcord.cz/trener/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/"
+      ]
+    },
+    {
+      "path": "/vybaveni/",
+      "url": "https://www.redcord.cz/vybaveni/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Vybavení - Redcord - Vybavení Redcord pro fyzioterapii,rehabilitaci,trénink",
+      "description": "Vybavení Redcord pro fyzioterapii, výkonový trénink i rehabilitací po zranění. Je spojnicí mezi fitness, zdravotní péčí a sportovním výkonem.",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/vybaveni/",
+      "h1": [
+        "Vybavení"
+      ],
+      "h2": [
+        "REDCORD MEDICAL PROFESSIONALS",
+        "REDCORD ACTIVE/SPORT PROFESSIONALS",
+        "REDCORD ACTIVE/SPORT INDIVIDUALS"
+      ],
+      "words": 256,
+      "images": 5,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vybaveni/active/",
+      "url": "https://www.redcord.cz/vybaveni/active/",
+      "status": 301,
+      "redirectTo": "/vybaveni/vybaveni-4/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": []
+    },
+    {
+      "path": "/vybaveni/doplnky/",
+      "url": "https://www.redcord.cz/vybaveni/doplnky/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/jednotlivec/"
+      ]
+    },
+    {
+      "path": "/vybaveni/fyzioterapeut/",
+      "url": "https://www.redcord.cz/vybaveni/fyzioterapeut/",
+      "status": 301,
+      "redirectTo": "/vybaveni/vybaveni/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vybaveni/instalace/",
+      "url": "https://www.redcord.cz/vybaveni/instalace/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/",
+        "/vybaveni/",
+        "/jednotlivec/"
+      ]
+    },
+    {
+      "path": "/vybaveni/jednotlivec/",
+      "url": "https://www.redcord.cz/vybaveni/jednotlivec/",
+      "status": 301,
+      "redirectTo": "/vybaveni/vybaveni-3/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vybaveni/trener/",
+      "url": "https://www.redcord.cz/vybaveni/trener/",
+      "status": 301,
+      "redirectTo": "/vybaveni/active/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vybaveni/vybaveni-3/",
+      "url": "https://www.redcord.cz/vybaveni/vybaveni-3/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/jednotlivec/"
+      ]
+    },
+    {
+      "path": "/vybaveni/vybaveni-4/",
+      "url": "https://www.redcord.cz/vybaveni/vybaveni-4/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": []
+    },
+    {
+      "path": "/vybaveni/vybaveni/",
+      "url": "https://www.redcord.cz/vybaveni/vybaveni/",
+      "status": 301,
+      "redirectTo": "/vybaveni/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": []
+    },
+    {
+      "path": "/vzdelavani/",
+      "url": "https://www.redcord.cz/vzdelavani/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Vzdělávání - Redcord - Rozcestník pro Redcord vzdělávání",
+      "description": "Vzdělávání probíhá ve vzdělávacích akreditovaných pracovištích Redpoint Clinic CZ. Lektorkami kurzů jsou Mgr. Alice Hamáčková a Mgr. Alice Pernicová.",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/vzdelavani/",
+      "h1": [
+        "Vzdělávání"
+      ],
+      "h2": [
+        "REDCORD MEDICAL PROFESSIONALS",
+        "REDCORD ACTIVE/SPORT PROFESSIONALS",
+        "REDCORD ACTIVE/SPORT INDIVIDUALS"
+      ],
+      "words": 169,
+      "images": 4,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/foto-vzdelavani/",
+      "url": "https://www.redcord.cz/vzdelavani/foto-vzdelavani/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/fyzioterapeut/",
+      "url": "https://www.redcord.cz/vzdelavani/fyzioterapeut/",
+      "status": 301,
+      "redirectTo": "/vzdelavani/neurac/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/jednotlivec/",
+      "url": "https://www.redcord.cz/vzdelavani/jednotlivec/",
+      "status": 301,
+      "redirectTo": "/vybaveni/jednotlivec/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/jednotlivec/",
+        "/vzdelavani/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/neurac/",
+      "url": "https://www.redcord.cz/vzdelavani/neurac/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Neurac vzdělávání - Fyzioterapeut - Redcord - Vzdělávání fyzioterapeutů",
+      "description": "Nabízíme vzdělávací kurzy Neurac a workshopy pro fyzioterapeuty, semináře pro lékaře i kurzy Redcord Active pro trenéry, profesionální a amatérské sportovce",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/vzdelavani/neurac/",
+      "h1": [
+        "Vzdělávání pro fyzioterapeuty"
+      ],
+      "h2": [
+        "Neurac 1",
+        "Neurac 2",
+        "Neurac 3"
+      ],
+      "words": 899,
+      "images": 7,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/trener/",
+      "url": "https://www.redcord.cz/vzdelavani/trener/",
+      "status": 301,
+      "redirectTo": "/vzdelavani/vzdelavani/",
+      "inSitemap": false,
+      "error": "",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/vzdelavaci-program/",
+      "url": "https://www.redcord.cz/vzdelavani/vzdelavaci-program/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Vzdělávací program - Redcord - Přehled vzdělávacích kurzů Redcord",
+      "description": "Neurac® je certifikovaný kurz, který má vlastní vzdělávací program a kde si osvojíte základy metody Neurac® a principy cvičení v závěsném systému Redcord®.",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/vzdelavani/vzdelavaci-program/",
+      "h1": [
+        "Vzdělávací program"
+      ],
+      "h2": [
+        "Neurac® certifikovaný kurz dle zákona č. 96/2004 Sb. o nelékařských zdravotnických povoláních",
+        "Workshopy, konference"
+      ],
+      "words": 587,
+      "images": 4,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/vzdelavani/",
+      "url": "https://www.redcord.cz/vzdelavani/vzdelavani/",
+      "status": 200,
+      "redirectTo": "",
+      "inSitemap": true,
+      "error": "",
+      "title": "Vzdělávání - Trenér - Redcord - Vzdělávání Redcord pro trenéry",
+      "description": "V našich akreditovaných střediskách nabízíme kromě workshopů v rámci vzdělávání kurzy Neurac pro fyzioteraupeuty a lékaře a kurzy Redcord Active pro trenéry",
+      "robots": "index, follow",
+      "canonical": "https://www.redcord.cz/vzdelavani/vzdelavani/",
+      "h1": [
+        "Vzdělávání pro trenéry"
+      ],
+      "h2": [
+        "Active Intro®",
+        "Active Advanced Corrective exercise (Nápravná cvičení)",
+        "Active Pro"
+      ],
+      "words": 1273,
+      "images": 9,
+      "forms": 1,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "path": "/vzdelavani/workshopy/",
+      "url": "https://www.redcord.cz/vzdelavani/workshopy/",
+      "status": 404,
+      "redirectTo": "",
+      "inSitemap": false,
+      "error": "",
+      "title": "Stránka nenalezena - Redcord",
+      "description": "",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "h1": [
+        "Omlouváme se, ale stránka nebyla nalezena."
+      ],
+      "h2": [],
+      "words": 61,
+      "images": 1,
+      "forms": 2,
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "url": "https://www.redcord.cz/wp-content/uploads/2019/07/Let%C3%A1k-tren%C3%A9_i.pdf",
+      "status": 404,
+      "linkedFrom": [
+        "/vzdelavani/vzdelavani/"
+      ]
+    },
+    {
+      "url": "https://www.redcord.cz/wp-content/uploads/2019/07/Let%C3%A1k-fyzioterapeuti.pdf",
+      "status": 404,
+      "linkedFrom": [
+        "/vzdelavani/neurac/"
+      ]
+    },
+    {
+      "url": "https://www.redcord.cz/wp-content/uploads/2019/07/2020_Neurac_3_letak.pdf",
+      "status": 404,
+      "linkedFrom": [
+        "/vzdelavani/neurac/"
+      ]
+    },
+    {
+      "url": "https://www.redcord.cz/wp-content/uploads/Pl%C3%A1n-akc%C3%AD-2020-v20200415.pdf",
+      "status": 404,
+      "linkedFrom": [
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    }
+  ],
+  "external": [
+    {
+      "host": "www.redpoint-clinic.cz",
+      "pages": 14
+    },
+    {
+      "host": "obchod.redcord.cz",
+      "pages": 14
+    },
+    {
+      "host": "www.facebook.com",
+      "pages": 14
+    },
+    {
+      "host": "www.youtube.com",
+      "pages": 14
+    },
+    {
+      "host": "www.instagram.com",
+      "pages": 14
+    },
+    {
+      "host": "cs.wordpress.org",
+      "pages": 4
+    },
+    {
+      "host": "redpoint-clinic.cz",
+      "pages": 1
+    },
+    {
+      "host": "www.redcord.com",
+      "pages": 1
+    },
+    {
+      "host": "www.horazdovice.nemocnicepk.cz",
+      "pages": 1
+    },
+    {
+      "host": "www.fnplzen.cz",
+      "pages": 1
+    },
+    {
+      "host": "www.sportovnipece.cz",
+      "pages": 1
+    },
+    {
+      "host": "www.fyzioterapie-sichnarek.cz",
+      "pages": 1
+    },
+    {
+      "host": "www.fyzijo.cz",
+      "pages": 1
+    }
+  ],
+  "queryLinks": [
+    {
+      "url": "/?page_id=334",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=565",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=576",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=338",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=424",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=426",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=428",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=430",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=432",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=547",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=550",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=568",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=570",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=572",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    },
+    {
+      "url": "/?page_id=574",
+      "linkedFrom": [
+        "/",
+        "/obchod/",
+        "/kosik/",
+        "/pokladna/",
+        "/muj-ucet/",
+        "/bezpecnost/",
+        "/vybaveni/",
+        "/jednotlivec/",
+        "/vzdelavani/vzdelavani/",
+        "/vzdelavani/neurac/",
+        "/vzdelavani/",
+        "/neurac/kdo-jsou-certified-neurac-practitioners/",
+        "/kontakt/",
+        "/vzdelavani/vzdelavaci-program/"
+      ]
+    }
+  ]
+}

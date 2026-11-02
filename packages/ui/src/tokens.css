@@ -1,0 +1,37 @@
+/*
+ * Redcord design tokens (Tailwind v4 @theme).
+ * Only --color-brand (#c8102e) and --color-ink (#0a0a0a) are sampled from the redcord.com
+ * reference. Everything else is a proposed starting value; approved brand guidelines override.
+ * A future Redpoint site supplies its own token file with the same names.
+ */
+@theme {
+  --color-brand: #c8102e;
+  --color-brand-dark: #a00d25;
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #1c1c1c;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f5f5f5;
+  --color-muted: #575757;
+  --color-muted-on-ink: #b5b5b5;
+  --color-line: #e2e2e2;
+  --color-line-on-ink: #2e2e2e;
+  --color-warn: #8a5a00;
+  --color-warn-bg: #fff6e0;
+
+  --radius-card: 20px;
+  --radius-hero: 24px;
+
+  --font-sans: "Inter Variable", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --container-content: 1240px;
+
+  --text-display: clamp(2.25rem, 4.6vw, 4.25rem);
+  --text-display--line-height: 1.04;
+  --text-display--letter-spacing: -0.03em;
+  --text-section: clamp(1.75rem, 3.3vw, 3rem);
+  --text-section--line-height: 1.08;
+  --text-section--letter-spacing: -0.025em;
+  --text-editorial: clamp(2.5rem, 7vw, 6.5rem);
+  --text-editorial--line-height: 0.98;
+  --text-editorial--letter-spacing: -0.04em;
+}

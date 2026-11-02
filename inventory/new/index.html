@@ -1,0 +1,178 @@
+<!doctype html><html lang="cs"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inventura stránek — nový web (prototyp)</title><style>
+body{font:14px/1.5 system-ui,sans-serif;margin:24px;color:#111;background:#fafafa}h1{font-size:24px;margin:0 0 4px}h2{margin-top:32px}
+.cards{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:10px 14px;min-width:120px}.card b{display:block;font-size:22px}
+table{border-collapse:collapse;background:#fff;width:100%;margin:8px 0 24px}th,td{border:1px solid #e2e2e2;padding:6px 8px;text-align:left;vertical-align:top}th{background:#f3f3f3;position:sticky;top:0}
+.s2{color:#1d5e2c;font-weight:700}.s3{color:#8a5a00;font-weight:700}.s4,.s0,.s5{color:#c8102e;font-weight:700}.muted{color:#666}.warn{background:#fff6e0}.bad{background:#fdecee}
+input{padding:8px 12px;border:1px solid #ccc;border-radius:99px;width:320px;margin:8px 0}code{font-size:12px}a{color:#111}
+</style>
+<script>function f(i){const q=i.value.toLowerCase();document.querySelectorAll('tbody tr').forEach(r=>r.style.display=r.textContent.toLowerCase().includes(q)?'':'none')}</script>
+<h1>Inventura stránek — nový web (prototyp)</h1><p class="muted">http://localhost:3100 · procházeno 2026-11-02 · stránky nalezené přes sitemapu a odkazy (bez URL s parametry)</p>
+<div class="cards"><div class="card"><b>40</b>URL celkem</div><div class="card"><b>39</b>200 OK</div><div class="card"><b>1</b>přesměrování</div><div class="card"><b>0</b>chyby (4xx/5xx)</div><div class="card"><b>0</b>chybná H1</div><div class="card"><b>0 / 0</b>nefunkční dokumenty</div></div>
+<input placeholder="Filtrovat…" oninput="f(this)">
+<h2>Stránky</h2><table><thead><tr><th>URL</th><th>Stav</th><th>Title / H1</th><th>Description</th><th>Slov</th><th>Obr.</th><th>Form.</th><th>Odkazy dovnitř</th><th>Upozornění</th></tr></thead><tbody>
+<tr class=""><td><a href="http://localhost:3100/">/</a></td><td><span class="s2">200</span></td>
+<td>Redcord — vybavení, metoda Neurac a vzdělávání | ČR a SR<br><b>H1:</b> Redcord vybavení. Neurac metoda. Podpora pro vaši praxi.<br><span class="muted">H2: Pro koho je Redcord · Vybavení přizpůsobené vašemu prostoru · Vybavení a metoda nejsou totéž · Vzdělávací cesty podle vaší profese · Nejbližší termíny kurzů</span></td>
+<td class="muted">Výhradní zastoupení Redcord® pro Českou a Slovenskou republiku: vybavení pro fyzioterapii a trénink, instalace, servis a kurzy Neurac a Redcord Active.</td><td>704</td><td>2</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/bezpecnost/">/bezpecnost/</a></td><td><span class="s2">200</span></td>
+<td>Servis a bezpečnost | Redcord ČR a SR<br><b>H1:</b> Bezpečnost používání vybavení Redcord<br><span class="muted">H2: Témata · Podpora pro stávající zákazníky · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Bezpečnost používání vybavení Redcord, technické kontroly, péče a údržba a školení bezpečnosti.</td><td>220</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class="warn"><td><a href="http://localhost:3100/bezpecnost/bezpecnostni-oznameni/">/bezpecnost/bezpecnostni-oznameni/</a></td><td><span class="s2">200</span></td>
+<td>Bezpečnostní oznámení | Redcord ČR a SR<br><b>H1:</b> Bezpečnostní oznámení<br><span class="muted">H2: Schválené informace doplníme · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Oznámení výrobce a výměnné akce týkající se vybavení Redcord.</td><td>68</td><td>0</td><td>0</td>
+<td>39</td><td>málo textu</td></tr>
+<tr class="warn"><td><a href="http://localhost:3100/bezpecnost/pece-a-udrzba/">/bezpecnost/pece-a-udrzba/</a></td><td><span class="s2">200</span></td>
+<td>Péče a údržba | Redcord ČR a SR<br><b>H1:</b> Péče a údržba<br><span class="muted">H2: Schválené informace doplníme · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Péče o lana, závěsné body a další součásti pro dlouhou životnost vybavení.</td><td>72</td><td>0</td><td>0</td>
+<td>39</td><td>málo textu</td></tr>
+<tr class="warn"><td><a href="http://localhost:3100/bezpecnost/skoleni-bezpecnosti/">/bezpecnost/skoleni-bezpecnosti/</a></td><td><span class="s2">200</span></td>
+<td>Školení bezpečnosti | Redcord ČR a SR<br><b>H1:</b> Školení bezpečnosti<br><span class="muted">H2: Schválené informace doplníme · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Zaškolení v bezpečném používání zařízení probíhá vždy s montáží nového vybavení.</td><td>70</td><td>0</td><td>0</td>
+<td>39</td><td>málo textu</td></tr>
+<tr class=""><td><a href="http://localhost:3100/bezpecnost/technicke-kontroly/">/bezpecnost/technicke-kontroly/</a></td><td><span class="s2">200</span></td>
+<td>Technické kontroly | Redcord ČR a SR<br><b>H1:</b> Technické kontroly<br><span class="muted">H2: Co kontrola zahrnuje · Objednat kontrolu · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Objednání bezpečnostně technické kontroly instalovaného vybavení Redcord.</td><td>143</td><td>0</td><td>1</td>
+<td>39</td><td></td></tr>
+<tr class="warn"><td><a href="http://localhost:3100/cookies/">/cookies/</a></td><td><span class="s2">200</span></td>
+<td>Cookies | Redcord ČR a SR<br><b>H1:</b> Cookies a nastavení souhlasu<br><span class="muted">H2: Nastavení souhlasu připravujeme · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Výhradní zastoupení Redcord® pro Českou a Slovenskou republiku: vybavení pro fyzioterapii a trénink, instalace, servis a kurzy Neurac a Redcord Active.</td><td>67</td><td>0</td><td>0</td>
+<td>39</td><td>málo textu</td></tr>
+<tr class="warn"><td><a href="http://localhost:3100/hledat/">/hledat/</a></td><td><span class="s2">200</span></td>
+<td>Hledat | Redcord ČR a SR<br><b>H1:</b> Hledat na webu<br><span class="muted">H2: Zadejte hledaný výraz · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Výhradní zastoupení Redcord® pro Českou a Slovenskou republiku: vybavení pro fyzioterapii a trénink, instalace, servis a kurzy Neurac a Redcord Active.</td><td>33</td><td>0</td><td>1</td>
+<td>39</td><td>málo textu</td></tr>
+<tr class=""><td><a href="http://localhost:3100/jednotlivec/">/jednotlivec/</a></td><td><span class="s2">200</span></td>
+<td>Redcord pro jednotlivce | Redcord ČR a SR<br><b>H1:</b> Redcord pro jednotlivce a sportovce<br><span class="muted">H2: Sestavy pro individuální použití · Naučte se s vybavením pracovat · Instalace doma · Vybavení · Vzdělávání</span></td>
+<td class="muted">Sestavy Redcord pro samostatný trénink, nákup v e-shopu a navazující kurz Redcord Active Intro.</td><td>222</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/kontakt/">/kontakt/</a></td><td><span class="s2">200</span></td>
+<td>Kontakt | Redcord ČR a SR<br><b>H1:</b> Kontakt<br><span class="muted">H2: Oddělení · Napište nám · Provozovatel · Vedení společnosti · Referenční pracoviště</span></td>
+<td class="muted">Obchod a instalace, vzdělávání a servis Redcord pro ČR a SR. Telefony, e-maily a poptávkový formulář.</td><td>269</td><td>0</td><td>1</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/neurac/">/neurac/</a></td><td><span class="s2">200</span></td>
+<td>Metoda Neurac | Redcord ČR a SR<br><b>H1:</b> Metoda Neurac®<br><span class="muted">H2: Vybavení a metoda · Kam dál · Co znamená Certified Neurac® Practitioner · Vybavení · Vzdělávání</span></td>
+<td class="muted">Jak souvisí vybavení Redcord a terapeutický přístup Neurac, kde se mu naučit a kde najít certifikované terapeuty.</td><td>176</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/neurac/kdo-jsou-certified-neurac-practitioners/">/neurac/kdo-jsou-certified-neurac-practitioners/</a></td><td><span class="s2">200</span></td>
+<td>Certified Neurac Practitioners | Redcord ČR a SR<br><b>H1:</b> Kdo jsou Certified Neurac® Practitioners<br><span class="muted">H2: Seznam terapeutů · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Seznam certifikovaných terapeutů Neurac v České republice podle města.</td><td>123</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/o-nas/">/o-nas/</a></td><td><span class="s2">200</span></td>
+<td>O nás | Redcord ČR a SR<br><b>H1:</b> O nás<br><span class="muted">H2: Co zajišťujeme · Historie · Redpoint Clinic CZ · O tomto prototypu · Vybavení</span></td>
+<td class="muted">AHAMA s.r.o. — výhradní zastoupení Redcord® pro Českou a Slovenskou republiku.</td><td>239</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class="warn"><td><a href="http://localhost:3100/ochrana-osobnich-udaju/">/ochrana-osobnich-udaju/</a></td><td><span class="s2">200</span></td>
+<td>Ochrana osobních údajů | Redcord ČR a SR<br><b>H1:</b> Ochrana osobních údajů<br><span class="muted">H2: Zásady dodá provozovatel · Vybavení · Vzdělávání · Servis a bezpečnost · Společnost</span></td>
+<td class="muted">Výhradní zastoupení Redcord® pro Českou a Slovenskou republiku: vybavení pro fyzioterapii a trénink, instalace, servis a kurzy Neurac a Redcord Active.</td><td>56</td><td>0</td><td>0</td>
+<td>39</td><td>málo textu</td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/">/vybaveni/</a></td><td><span class="s2">200</span></td>
+<td>Vybavení Redcord | Redcord ČR a SR<br><b>H1:</b> Vybavení Redcord<br><span class="muted">H2: Produktové řady · Časté dotazy k nákupu · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Řady vybavení Redcord pro fyzioterapeutická pracoviště, trenéry a jednotlivce. Konzultace, instalace a nákup.</td><td>494</td><td>1</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/active-pro-plus/">/vybaveni/active-pro-plus/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Active Pro Plus | Redcord ČR a SR<br><b>H1:</b> Redcord Active Pro Plus<br><span class="muted">H2: Použití · Související vzdělávání · Poptávka a konzultace · Vybavení · Vzdělávání</span></td>
+<td class="muted">Řada pro tréninková a sportovní zařízení. Rozsah a instalaci připravíme podle prostoru a programu.</td><td>197</td><td>0</td><td>1</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/active-pro/">/vybaveni/active-pro/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Active Pro | Redcord ČR a SR<br><b>H1:</b> Redcord Active Pro<br><span class="muted">H2: Použití · Související vzdělávání · Poptávka a konzultace · Vybavení · Vzdělávání</span></td>
+<td class="muted">Řada pro trenéry a studia. Rozsah a instalaci připravíme podle prostoru a programu.</td><td>204</td><td>0</td><td>1</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/active/">/vybaveni/active/</a></td><td><span class="s3">307</span> → <code>/vybaveni/?pro=trener</code></td>
+<td></td>
+<td class="muted"></td><td></td><td></td><td></td>
+<td>1</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/axis/">/vybaveni/axis/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Axis | Redcord ČR a SR<br><b>H1:</b> Redcord Axis<br><span class="muted">H2: Použití · Související vzdělávání · Poptávka a konzultace · Vybavení · Vzdělávání</span></td>
+<td class="muted">Součást řady pro trenéry. Vhodnost a montáž konzultujte s obchodním oddělením.</td><td>184</td><td>0</td><td>1</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/home-gym/">/vybaveni/home-gym/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Home Gym | Redcord ČR a SR<br><b>H1:</b> Redcord Home Gym<br><span class="muted">H2: Použití · Související vzdělávání · Potřebujete poradit? · Vybavení · Vzdělávání</span></td>
+<td class="muted">Sestava pro individuální trénink. Dostupnost a cenu ověříte v e-shopu.</td><td>191</td><td>0</td><td>1</td>
+<td>3</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/instalace/">/vybaveni/instalace/</a></td><td><span class="s2">200</span></td>
+<td>Instalace vybavení | Redcord ČR a SR<br><b>H1:</b> Instalace vybavení<br><span class="muted">H2: Jak instalace probíhá · Konzultace instalace · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Instalace a zaškolení k vybavení Redcord pro kliniky, trenéry i jednotlivce.</td><td>193</td><td>0</td><td>1</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/mini/">/vybaveni/mini/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Mini | Redcord ČR a SR<br><b>H1:</b> Redcord Mini<br><span class="muted">H2: Použití · Související vzdělávání · Potřebujete poradit? · Vybavení · Vzdělávání</span></td>
+<td class="muted">Kompaktní zařízení z nabídky AHAMA s.r.o. Dostupnost a cenu ověříte v e-shopu.</td><td>203</td><td>0</td><td>1</td>
+<td>3</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/portable-gym/">/vybaveni/portable-gym/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Portable Gym | Redcord ČR a SR<br><b>H1:</b> Redcord Portable Gym<br><span class="muted">H2: Použití · Související vzdělávání · Potřebujete poradit? · Vybavení · Vzdělávání</span></td>
+<td class="muted">Přenosná sestava pro trénink mimo stálou instalaci. Dostupnost a cenu ověříte v e-shopu.</td><td>201</td><td>0</td><td>1</td>
+<td>3</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/rehab-pro-plus/">/vybaveni/rehab-pro-plus/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Rehab Pro Plus | Redcord ČR a SR<br><b>H1:</b> Redcord Rehab Pro Plus<br><span class="muted">H2: Použití · Související vzdělávání · Poptávka a konzultace · Vybavení · Vzdělávání</span></td>
+<td class="muted">Řešení pro rehabilitační pracoviště. Konfiguraci a instalaci navrhujeme individuálně.</td><td>183</td><td>0</td><td>1</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/stimula/">/vybaveni/stimula/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Stimula | Redcord ČR a SR<br><b>H1:</b> Redcord Stimula<br><span class="muted">H2: Použití · Související vzdělávání · Poptávka a konzultace · Vybavení · Vzdělávání</span></td>
+<td class="muted">Zařízení zmiňované v podmínkách pokročilého kurzu Neurac 3. Vhodnost pro vaše pracoviště konzultujte s obchodním oddělením.</td><td>188</td><td>0</td><td>1</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vybaveni/workstation-professional/">/vybaveni/workstation-professional/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Workstation Professional | Redcord ČR a SR<br><b>H1:</b> Redcord Workstation Professional<br><span class="muted">H2: Použití · Související vzdělávání · Poptávka a konzultace · Vybavení · Vzdělávání</span></td>
+<td class="muted">Pracovní stanice pro fyzioterapeutická a klinická pracoviště. Konfiguraci a instalaci navrhujeme individuálně.</td><td>189</td><td>1</td><td>1</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/">/vzdelavani/</a></td><td><span class="s2">200</span></td>
+<td>Vzdělávání | Redcord ČR a SR<br><b>H1:</b> Vzdělávání Redcord a Neurac<br><span class="muted">H2: Vzdělávací cesty · Nejbližší termíny všech kurzů · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Kurzy Neurac pro fyzioterapeuty a lékaře, Redcord Active pro trenéry a tematické workshopy.</td><td>253</td><td>1</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/active-advanced/">/vzdelavani/kurzy/active-advanced/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Redcord Active Advanced | Redcord ČR a SR<br><b>H1:</b> Redcord Active Advanced<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Absolventi kurzu Redcord Active Intro.</td><td>125</td><td>0</td><td>0</td>
+<td>5</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/active-intro/">/vzdelavani/kurzy/active-intro/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Redcord Active Intro | Redcord ČR a SR<br><b>H1:</b> Redcord Active Intro<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Účastníci s předchozí zkušeností s tréninkem a dobrým zdravotním stavem — certifikovaní osobní trenéři, instruktoři pilates, domácí trénink.</td><td>163</td><td>0</td><td>0</td>
+<td>10</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/active-pro/">/vzdelavani/kurzy/active-pro/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Redcord Active Pro | Redcord ČR a SR<br><b>H1:</b> Redcord Active Pro<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Absolventi kurzu Redcord Active Advanced.</td><td>125</td><td>0</td><td>0</td>
+<td>3</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/neurac-1/">/vzdelavani/kurzy/neurac-1/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Neurac 1 | Redcord ČR a SR<br><b>H1:</b> Neurac 1<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Fyzioterapeuti, lékaři a profesionálové se vzděláním v anatomii, fyziologii a patologii.</td><td>147</td><td>0</td><td>0</td>
+<td>7</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/neurac-2/">/vzdelavani/kurzy/neurac-2/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Neurac 2 | Redcord ČR a SR<br><b>H1:</b> Neurac 2<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Zkušení terapeuti s praxí se systémem Redcord® Workstation.</td><td>156</td><td>0</td><td>0</td>
+<td>6</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/neurac-3/">/vzdelavani/kurzy/neurac-3/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Neurac 3 | Redcord ČR a SR<br><b>H1:</b> Neurac 3<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Absolventi Neurac 1 a všech částí Neurac 2 s praxí na Redcord Workstation Professional.</td><td>146</td><td>0</td><td>0</td>
+<td>4</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/workshop-klinicka-diagnostika-neurac/">/vzdelavani/kurzy/workshop-klinicka-diagnostika-neurac/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Klinická diagnostika Neurac | Redcord ČR a SR<br><b>H1:</b> Klinická diagnostika Neurac<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Upřesní vlastník.</td><td>98</td><td>0</td><td>0</td>
+<td>2</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/workshop-princip-treti-ruky/">/vzdelavani/kurzy/workshop-princip-treti-ruky/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Princip třetí ruky | Redcord ČR a SR<br><b>H1:</b> Princip třetí ruky<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Upřesní vlastník.</td><td>98</td><td>0</td><td>0</td>
+<td>3</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/kurzy/workshop-uvod-do-metody-neurac/">/vzdelavani/kurzy/workshop-uvod-do-metody-neurac/</a></td><td><span class="s2">200</span></td>
+<td>Kurz Úvod do metody Neurac | Redcord ČR a SR<br><b>H1:</b> Úvod do metody Neurac<br><span class="muted">H2: Informace o kurzu · Termíny · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Upřesní vlastník.</td><td>113</td><td>0</td><td>0</td>
+<td>3</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/neurac/">/vzdelavani/neurac/</a></td><td><span class="s2">200</span></td>
+<td>Neurac — vzdělávání pro fyzioterapeuty | Redcord ČR a SR<br><b>H1:</b> Vzdělávání pro fyzioterapeuty<br><span class="muted">H2: Struktura kurzů Neurac® · Termíny kurzů Neurac · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Struktura kurzů Neurac 1, 2 a 3: pro koho jsou určeny, podmínky účasti a termíny.</td><td>283</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/treneri/">/vzdelavani/treneri/</a></td><td><span class="s2">200</span></td>
+<td>Redcord Active — vzdělávání pro trenéry | Redcord ČR a SR<br><b>H1:</b> Vzdělávání pro trenéry<br><span class="muted">H2: Kurzy Redcord Active · Termíny kurzů Redcord Active · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Kurzy Redcord Active Intro, Advanced a Pro pro osobní trenéry a instruktory.</td><td>204</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/vzdelavaci-program/">/vzdelavani/vzdelavaci-program/</a></td><td><span class="s2">200</span></td>
+<td>Vzdělávací program — termíny kurzů | Redcord ČR a SR<br><b>H1:</b> Termíny kurzů<br><span class="muted">H2: Filtrovat termíny · Nadcházející termíny ( 4 ) · Archiv proběhlých kurzů ( 9 ) · Vybavení · Vzdělávání</span></td>
+<td class="muted">Aktuální termíny kurzů Neurac, Redcord Active a workshopů. Filtrujte podle cesty, místa a profese.</td><td>572</td><td>0</td><td>1</td>
+<td>39</td><td></td></tr>
+<tr class=""><td><a href="http://localhost:3100/vzdelavani/workshopy/">/vzdelavani/workshopy/</a></td><td><span class="s2">200</span></td>
+<td>Workshopy | Redcord ČR a SR<br><b>H1:</b> Workshopy<br><span class="muted">H2: Témata z dřívější nabídky · Termíny workshopů · Vybavení · Vzdělávání · Servis a bezpečnost</span></td>
+<td class="muted">Krátké tematické workshopy Redcord a Neurac.</td><td>121</td><td>0</td><td>0</td>
+<td>39</td><td></td></tr></tbody></table>
+<h2>Dokumenty (0)</h2><table><thead><tr><th>Soubor</th><th>Stav</th><th>Odkazováno z</th></tr></thead><tbody>
+</tbody></table>
+<h2>Odkazy s parametry (18)</h2><table><thead><tr><th>URL</th><th>Odkazováno z</th></tr></thead><tbody>
+<tr><td><code>/vybaveni/?pro=klinika</code></td><td>/<br>/o-nas/<br>/vybaveni/<br>/jednotlivec/<br>/vybaveni/instalace/<br>/vzdelavani/<br>/vzdelavani/neurac/<br>/vzdelavani/treneri/<br>/vzdelavani/workshopy/<br>/vzdelavani/vzdelavaci-program/<br>/neurac/<br>/neurac/kdo-jsou-certified-neurac-practitioners/<br>/bezpecnost/<br>/bezpecnost/technicke-kontroly/<br>/bezpecnost/bezpecnostni-oznameni/<br>/bezpecnost/pece-a-udrzba/<br>/bezpecnost/skoleni-bezpecnosti/<br>/kontakt/<br>/hledat/<br>/vzdelavani/kurzy/neurac-1/<br>/vzdelavani/kurzy/active-intro/<br>/vzdelavani/kurzy/neurac-2/<br>/ochrana-osobnich-udaju/<br>/cookies/<br>/vybaveni/workstation-professional/<br>/vybaveni/stimula/<br>/vybaveni/rehab-pro-plus/<br>/vybaveni/active-pro-plus/<br>/vybaveni/active-pro/<br>/vybaveni/axis/<br>/vybaveni/home-gym/<br>/vybaveni/portable-gym/<br>/vybaveni/mini/<br>/vzdelavani/kurzy/neurac-3/<br>/vzdelavani/kurzy/active-advanced/<br>/vzdelavani/kurzy/active-pro/<br>/vzdelavani/kurzy/workshop-princip-treti-ruky/<br>/vzdelavani/kurzy/workshop-uvod-do-metody-neurac/<br>/vzdelavani/kurzy/workshop-klinicka-diagnostika-neurac/</td></tr><tr><td><code>/vybaveni/?pro=trener</code></td><td>/<br>/o-nas/<br>/vybaveni/<br>/jednotlivec/<br>/vybaveni/instalace/<br>/vzdelavani/<br>/vzdelavani/neurac/<br>/vzdelavani/treneri/<br>/vzdelavani/workshopy/<br>/vzdelavani/vzdelavaci-program/<br>/neurac/<br>/neurac/kdo-jsou-certified-neurac-practitioners/<br>/bezpecnost/<br>/bezpecnost/technicke-kontroly/<br>/bezpecnost/bezpecnostni-oznameni/<br>/bezpecnost/pece-a-udrzba/<br>/bezpecnost/skoleni-bezpecnosti/<br>/kontakt/<br>/hledat/<br>/vzdelavani/kurzy/neurac-1/<br>/vzdelavani/kurzy/active-intro/<br>/vzdelavani/kurzy/neurac-2/<br>/ochrana-osobnich-udaju/<br>/cookies/<br>/vybaveni/workstation-professional/<br>/vybaveni/stimula/<br>/vybaveni/rehab-pro-plus/<br>/vybaveni/active-pro-plus/<br>/vybaveni/active-pro/<br>/vybaveni/axis/<br>/vybaveni/home-gym/<br>/vybaveni/portable-gym/<br>/vybaveni/mini/<br>/vzdelavani/kurzy/neurac-3/<br>/vzdelavani/kurzy/active-advanced/<br>/vzdelavani/kurzy/active-pro/<br>/vzdelavani/kurzy/workshop-princip-treti-ruky/<br>/vzdelavani/kurzy/workshop-uvod-do-metody-neurac/<br>/vzdelavani/kurzy/workshop-klinicka-diagnostika-neurac/</td></tr><tr><td><code>/kontakt/?oddeleni=obchod</code></td><td>/<br>/vybaveni/<br>/jednotlivec/<br>/bezpecnost/<br>/kontakt/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Neurac%201</code></td><td>/<br>/vzdelavani/<br>/vzdelavani/neurac/<br>/vzdelavani/vzdelavaci-program/<br>/vzdelavani/kurzy/neurac-1/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Redcord%20Active%20Intro</code></td><td>/<br>/vzdelavani/<br>/vzdelavani/treneri/<br>/vzdelavani/vzdelavaci-program/<br>/vzdelavani/kurzy/active-intro/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Neurac%202</code></td><td>/<br>/vzdelavani/<br>/vzdelavani/neurac/<br>/vzdelavani/vzdelavaci-program/<br>/vzdelavani/kurzy/neurac-2/</td></tr><tr><td><code>/kontakt/?oddeleni=servis</code></td><td>/<br>/bezpecnost/<br>/bezpecnost/bezpecnostni-oznameni/<br>/bezpecnost/pece-a-udrzba/<br>/bezpecnost/skoleni-bezpecnosti/<br>/kontakt/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani</code></td><td>/<br>/vzdelavani/<br>/vzdelavani/vzdelavaci-program/<br>/neurac/kdo-jsou-certified-neurac-practitioners/<br>/bezpecnost/<br>/kontakt/<br>/vzdelavani/kurzy/neurac-1/<br>/vzdelavani/kurzy/active-intro/<br>/vzdelavani/kurzy/neurac-2/<br>/vzdelavani/kurzy/neurac-3/<br>/vzdelavani/kurzy/active-advanced/<br>/vzdelavani/kurzy/active-pro/<br>/vzdelavani/kurzy/workshop-princip-treti-ruky/<br>/vzdelavani/kurzy/workshop-uvod-do-metody-neurac/<br>/vzdelavani/kurzy/workshop-klinicka-diagnostika-neurac/</td></tr><tr><td><code>/vybaveni/?pro=jednotlivec</code></td><td>/vybaveni/</td></tr><tr><td><code>/vzdelavani/vzdelavaci-program/?cesta=neurac</code></td><td>/vzdelavani/neurac/</td></tr><tr><td><code>/vzdelavani/vzdelavaci-program/?cesta=active</code></td><td>/vzdelavani/treneri/</td></tr><tr><td><code>/vzdelavani/vzdelavaci-program/?cesta=workshop</code></td><td>/vzdelavani/workshopy/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=%C3%9Avod%20do%20metody%20Neurac</code></td><td>/vzdelavani/workshopy/<br>/vzdelavani/vzdelavaci-program/<br>/vzdelavani/kurzy/workshop-uvod-do-metody-neurac/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Neurac%203</code></td><td>/vzdelavani/kurzy/neurac-3/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Redcord%20Active%20Advanced</code></td><td>/vzdelavani/kurzy/active-advanced/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Redcord%20Active%20Pro</code></td><td>/vzdelavani/kurzy/active-pro/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Princip%20t%C5%99et%C3%AD%20ruky</code></td><td>/vzdelavani/kurzy/workshop-princip-treti-ruky/</td></tr><tr><td><code>/kontakt/?oddeleni=vzdelavani&amp;ref=Klinick%C3%A1%20diagnostika%20Neurac</code></td><td>/vzdelavani/kurzy/workshop-klinicka-diagnostika-neurac/</td></tr></tbody></table>
+<h2>Externí domény</h2><table><thead><tr><th>Doména</th><th>Počet stránek s odkazem</th></tr></thead><tbody>
+<tr><td>obchod.redcord.cz</td><td>39</td></tr><tr><td>www.redpoint-clinic.cz</td><td>39</td></tr><tr><td>www.facebook.com</td><td>39</td></tr><tr><td>www.instagram.com</td><td>39</td></tr><tr><td>www.youtube.com</td><td>39</td></tr><tr><td>www.redcord.cz</td><td>7</td></tr></tbody></table></html>

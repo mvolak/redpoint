@@ -1,0 +1,29 @@
+{
+  "$comment": "Every image position on the site. Owners assign harvested/supplied photos to these ids in the review sheet. minWidth = pixels needed to look sharp at the largest rendered size.",
+  "slots": [
+    { "id": "home-hero", "page": "/", "brief": "Hlavní foto: fyzioterapeut s klientem na instalaci Redcord Workstation, reálné pracoviště.", "ratio": "21/9", "minWidth": 2400 },
+    { "id": "home-audience-klinika", "page": "/", "brief": "Fyzioterapeut při terapii na Redcord Workstation.", "ratio": "3/4", "minWidth": 900 },
+    { "id": "home-audience-trener", "page": "/", "brief": "Trenér a sportovec při funkčním tréninku v lanech.", "ratio": "3/4", "minWidth": 900 },
+    { "id": "home-audience-jednotlivec", "page": "/", "brief": "Jednotlivec cvičí s přenosnou sestavou doma.", "ratio": "3/4", "minWidth": 900 },
+    { "id": "home-equipment", "page": "/", "brief": "Instalace v reálném prostoru: rám, závěsné body, lana. Redakční ořez na výšku.", "ratio": "4/5", "minWidth": 1200 },
+    { "id": "home-installation", "page": "/", "brief": "Detail montáže: technik upevňuje závěsný bod do stropu.", "ratio": "4/3", "minWidth": 1200 },
+    { "id": "home-clinic", "page": "/", "brief": "Velká tělocvična Redpoint Clinic CZ (Praha nebo Hradec Králové).", "ratio": "4/3", "minWidth": 1000 },
+    { "id": "edu-neurac", "page": "/vzdelavani/", "brief": "Výuka Neurac: lektor s účastníky u Workstation.", "ratio": "4/5", "minWidth": 900 },
+    { "id": "edu-active", "page": "/vzdelavani/", "brief": "Kurz Redcord Active, skupina trenérů.", "ratio": "4/5", "minWidth": 900 },
+    { "id": "edu-workshop", "page": "/vzdelavani/", "brief": "Workshop v menší skupině.", "ratio": "4/5", "minWidth": 900 },
+    { "id": "install-clinic", "page": "/vybaveni/instalace/", "brief": "Příklad instalace: klinika.", "ratio": "3/4", "minWidth": 900 },
+    { "id": "install-studio", "page": "/vybaveni/instalace/", "brief": "Příklad instalace: tréninkové studio.", "ratio": "3/4", "minWidth": 900 },
+    { "id": "individual-intro", "page": "/jednotlivec/", "brief": "Sportovec trénuje s přenosnou sestavou Redcord.", "ratio": "4/3", "minWidth": 1200 },
+    { "id": "about-team", "page": "/o-nas/", "brief": "Tým AHAMA / Redcord ČR na pracovišti.", "ratio": "4/3", "minWidth": 1200 },
+    { "id": "product-workstation-professional", "page": "/vybaveni/workstation-professional/", "brief": "Instalovaná Workstation v reálné tělocvičně, celý rám, terapeut s pacientem.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-stimula", "page": "/vybaveni/stimula/", "brief": "Detail zařízení Stimula při terapii, neutrální pozadí.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-rehab-pro-plus", "page": "/vybaveni/rehab-pro-plus/", "brief": "Rehabilitační sestava v provozu, přirozené světlo.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-active-pro-plus", "page": "/vybaveni/active-pro-plus/", "brief": "Skupinový trénink na instalaci Active Pro Plus.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-active-pro", "page": "/vybaveni/active-pro/", "brief": "Osobní trenér s klientem, studio, závěsný bod viditelný.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-active", "page": "/vybaveni/active/", "brief": "Cvičení v labilním prostředí, sportovec v pohybu.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-axis", "page": "/vybaveni/axis/", "brief": "Detail upevnění a použití Axis.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-home-gym", "page": "/vybaveni/home-gym/", "brief": "Domácí instalace, jednotlivec při cvičení.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-portable-gym", "page": "/vybaveni/portable-gym/", "brief": "Venkovní nebo cestovní použití přenosné sestavy.", "ratio": "4/5", "minWidth": 1000 },
+    { "id": "product-mini", "page": "/vybaveni/mini/", "brief": "Redcord Mini v použití, čisté pozadí.", "ratio": "4/5", "minWidth": 1000 }
+  ]
+}
