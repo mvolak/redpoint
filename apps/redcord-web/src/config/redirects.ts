@@ -167,6 +167,7 @@ export const APP_ROUTES = [
   "/hledat/",
   "/ochrana-osobnich-udaju/",
   "/cookies/",
+  "/rezervace/",
 ] as const;
 
 /** Anchor ids that pages must render so mapped fragments resolve. */

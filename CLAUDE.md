@@ -28,7 +28,16 @@ Next 16.4 / React 19.3 / Tailwind 4.3 differ from older training data (async `pa
 - Every content record has `SourceMeta` with an `ApprovalState`: `approved | pending | proposal | illustrative`. Preview (`SITE_ENV` unset/`preview`) renders non-approved records with review badges. Production renders `approved` only. Keep that filter in `isVisible` / `resolveMedia`. Don't bypass it in components.
 - **Never invent** metrics, testimonials, practitioners, prices, course dates, booking URLs or safety instructions. Missing data → honest empty state or `ReviewNote`. Illustrative course dates exist only behind `showIllustrativeSessions`.
 - Enquiries use the test adapter only. Never send real messages, take payments, deploy, or change DNS.
-- Shop, course registration and Redpoint Clinic are external handoffs (`packages/integrations/src/handoffs.ts`). Don't rebuild them. `REDPOINT_BOOKING_URL` comes from the owner. Never guess it.
+- Shop and course registration are external handoffs (`packages/integrations/src/handoffs.ts`). Don't rebuild them.
+- Redpoint Clinic booking is **embedded** (decision 2 Nov 2026): `packages/booking` → `/rezervace/`, staff UI under `(booking)/`. Keep its domain logic and SQL unchanged unless the task is about booking. Its seed data is synthetic and e-mail stays `EMAIL_PROVIDER=capture`. See `docs/booking/README.md`.
+
+## Booking
+
+- `pnpm test:booking` needs Postgres on :54340 (`pnpm db:up`). Root `pnpm test` doesn't touch the DB.
+- Package source uses **relative imports only**. In the app, `@/` means `apps/redcord-web/src`, so a booking file importing `@/…` would resolve to the wrong place. Tests may use `@/`.
+- Client calls go through `api()` in `lib/client-api.ts`, which adds the trailing slash (`trailingSlash: true`).
+- Pages and routes must keep working without `DATABASE_URL`/`APP_SECRET` (`bookingConfigured()`).
+- The booking wizard renders its own H1 per step. Don't add another H1 on `/rezervace/`.
 - Don't copy redcord.com / Wix code, fonts or images. redcord.cz content is owner-authorised (owner: AHAMA).
 
 ## Migration map

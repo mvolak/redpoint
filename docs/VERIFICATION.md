@@ -31,3 +31,12 @@ A bug was found and fixed during review: the mobile menu panel rendered with zer
 - The in-memory rate limiter resets on restart and isn't shared between instances.
 - Hero video is not implemented (`features.heroVideo` is false) pending an approved asset.
 - Preview isn't access-protected (noindex only).
+
+## Embedded booking (2 November 2026)
+
+- `pnpm test:booking`: **62/62** integration tests pass against real PostgreSQL 17 (`booking_test`).
+- `pnpm test`: 44/44 (vitest 5.0.5); `pnpm typecheck` clean across 5 packages; `pnpm build` includes 15 booking pages and 41 API routes.
+- `node scripts/booking-e2e.mjs` on a production build with the dev DB: 11/11. It covers the booking page in site chrome with the booking CSP and one H1, booking as a new patient, the OTP from the captured mailbox, confirmation, the e-mailed `/rezervace/sprava/#t=…` link, and reception login to the calendar. There were no console errors or failed requests.
+- `pnpm review` (site QA, 390/768/1440): all checks still pass after moving pages into the `(site)` route group.
+- Without `DATABASE_URL`: `/rezervace/` and `/rezervace/admin/` show a "not connected" H1 and the API returns 503.
+- Not verified: Supabase Auth + MFA and SMTP delivery (unchanged from the standalone app; see `docs/booking/README.md`). The admin was checked at 1440 px only.

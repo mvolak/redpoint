@@ -1,0 +1,28 @@
+# Local development + test database only. Not for production.
+services:
+  db:
+    image: postgres:17
+    container_name: redpoint_booking_db
+    environment:
+      POSTGRES_USER: booking
+      POSTGRES_PASSWORD: booking_dev_only
+      POSTGRES_DB: booking
+    ports:
+      - "54340:5432"
+    volumes:
+      - booking_pg:/var/lib/postgresql/data
+      - ./scripts/docker-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U booking"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  mailpit:
+    # Optional SMTP capture for staging-like testing (EMAIL_PROVIDER=smtp).
+    image: axllent/mailpit:v1.27
+    profiles: ["mail"]
+    ports:
+      - "54341:1025"
+      - "54342:8025"
+volumes:
+  booking_pg:
