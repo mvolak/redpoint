@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // Tests use the "@/" alias (vitest.config.ts). Source files use relative imports only,
+    // because inside the Next.js app "@/" means apps/redcord-web/src.
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/**/*.ts", "scripts/**/*.ts", "vitest.config.ts"]
+}

@@ -1,5 +1,5 @@
 import { company, referenceClinic, social } from "@redcord/content";
-import { SHOP, getClinicBookingUrl } from "@redcord/integrations";
+import { SHOP } from "@redcord/integrations";
 
 /**
  * Site configuration — owns identity, navigation, contacts, external endpoints and features.
@@ -12,6 +12,8 @@ const env: SiteEnv = process.env.SITE_ENV === "production" ? "production" : "pre
 
 export interface NavItem {
   label: string;
+  /** Shorter visible label for the desktop top bar, which has little room; must be the start of `label`. */
+  shortLabel?: string;
   href: string;
   description?: string;
   children?: { label: string; href: string }[];
@@ -42,10 +44,13 @@ export const site = {
     shopEquipment: SHOP.equipment,
     courseRegistration: SHOP.education,
     clinic: { url: referenceClinic.url, label: "Redpoint Clinic CZ" },
-    clinicBookingUrl: getClinicBookingUrl(process.env.REDPOINT_BOOKING_URL),
+    /** Redpoint Clinic booking is embedded in this site (packages/booking, /rezervace/). */
+    clinicBooking: { href: "/rezervace/", label: "Objednat se na terapii" },
   },
   social,
   primaryCta: { label: "Konzultace", href: "/kontakt/#poptavka" },
+  /** Header button next to Konzultace → embedded clinic booking. */
+  bookingCta: { label: "Rezervace", href: "/rezervace/" },
   nav: [
     {
       label: "Vybavení",
@@ -81,6 +86,7 @@ export const site = {
     },
     {
       label: "Servis a bezpečnost",
+      shortLabel: "Servis",
       href: "/bezpecnost/",
       children: [
         { label: "Přehled", href: "/bezpecnost/" },

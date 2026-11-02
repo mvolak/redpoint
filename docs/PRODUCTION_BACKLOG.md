@@ -46,8 +46,10 @@ Phase B of the brief. Every item depends on owner inputs (see `ASSUMPTIONS_AND_I
 
 ## Future clinic reuse (Redpoint)
 - [ ] `apps/redpoint-web` with own `site.ts` and token file; reuse `ui`, `content` interfaces, `integrations`.
-- [ ] Keep the existing working booking component; integrate by configured URL/embed only. No second appointment database, no shared patient/retail auth.
-- [ ] Separate operational roles and data stores for patient booking.
+- [x] Existing booking app embedded as `packages/booking` at `/rezervace/` (2 Nov 2026). It's the same app and schema, not a second appointment database. Patient/staff auth stays separate from any retail auth.
+- [ ] Booking production: hosted Postgres + backups, Supabase Auth with MFA, SMTP, worker or cron (`/api/rezervace/cron/outbox/`), real catalogue, privacy notice. See `docs/booking/README.md` and `docs/booking/DEPLOYMENT.md`.
+- [ ] Booking browser tests in CI (`scripts/booking-e2e.mjs` needs a DB service).
+- [ ] When `apps/redpoint-web` arrives, decide whether `/rezervace/` moves there and redcord.cz redirects to it.
 
 ## Explicitly out of scope until separately commissioned
 New enrolment/payments/certificates/learning portal, local cart, AI chat or autonomous guidance/transactions.

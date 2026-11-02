@@ -65,6 +65,9 @@ export function Footer() {
               <a href={referenceClinic.url} rel="noopener" className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-white/40 px-5 font-semibold">
                 Redpoint Clinic CZ <ExternalMark />
               </a>
+              <a href={site.external.clinicBooking.href} className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-white/40 px-5 font-semibold">
+                {site.external.clinicBooking.label}
+              </a>
             </div>
           </div>
           <nav aria-label="Patička" className="grid grid-cols-2 gap-8 md:grid-cols-4">

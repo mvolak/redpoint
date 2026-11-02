@@ -74,11 +74,9 @@ export default function AboutPage() {
             <ButtonLink href={referenceClinic.url} external variant="dark">
               Web kliniky
             </ButtonLink>
-            {site.external.clinicBookingUrl && (
-              <ButtonLink href={site.external.clinicBookingUrl} external variant="outline-dark">
-                Objednat se
-              </ButtonLink>
-            )}
+            <ButtonLink href={site.external.clinicBooking.href} variant="outline-dark">
+              {site.external.clinicBooking.label}
+            </ButtonLink>
           </div>
         </div>
       </Section>

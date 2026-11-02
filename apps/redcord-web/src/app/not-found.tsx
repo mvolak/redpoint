@@ -1,7 +1,10 @@
 import { ButtonLink, Container } from "@redcord/ui";
+import { SiteChrome } from "@/components/SiteChrome";
 
+// Root-level boundary renders inside the root layout only, so it brings its own site chrome.
 export default function NotFound() {
   return (
+    <SiteChrome>
     <Container className="py-24">
       <p className="text-sm font-semibold uppercase tracking-wider text-brand">Chyba 404</p>
       <h1 className="mt-4 text-display font-bold">Stránku jsme nenašli</h1>
@@ -21,5 +24,6 @@ export default function NotFound() {
         </ButtonLink>
       </div>
     </Container>
+    </SiteChrome>
   );
 }

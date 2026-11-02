@@ -11,6 +11,8 @@ interface HeaderProps {
   nav: readonly NavItem[];
   shopUrl: string;
   cta: { label: string; href: string };
+  /** Optional second button next to `cta` (clinic booking). */
+  bookingCta?: { label: string; href: string };
 }
 
 function isActive(pathname: string, href: string) {
@@ -56,11 +58,18 @@ function DesktopItem({ item, pathname }: { item: NavItem; pathname: string }) {
         href={item.href}
         aria-current={active ? "page" : undefined}
         className={cx(
-          "flex min-h-11 items-center rounded-full px-3 text-[15px] font-medium hover:text-brand",
+          "flex min-h-11 items-center whitespace-nowrap rounded-full px-2.5 text-[15px] font-medium hover:text-brand",
           active && "text-brand",
         )}
       >
-        {item.label}
+        {item.shortLabel && item.label.startsWith(item.shortLabel) ? (
+          <>
+            {item.shortLabel}
+            <span className="sr-only">{item.label.slice(item.shortLabel.length)}</span>
+          </>
+        ) : (
+          item.label
+        )}
       </Link>
       {item.children && (
         <>
@@ -102,7 +111,7 @@ function DesktopItem({ item, pathname }: { item: NavItem; pathname: string }) {
   );
 }
 
-export function Header({ nav, shopUrl, cta }: HeaderProps) {
+export function Header({ nav, shopUrl, cta, bookingCta }: HeaderProps) {
   const pathname = usePathname() ?? "/";
   const mobile = useRef<HTMLDetailsElement>(null);
 
@@ -113,7 +122,7 @@ export function Header({ nav, shopUrl, cta }: HeaderProps) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line/70 bg-white">
-      <div className="mx-auto flex h-18 max-w-content items-center gap-4 px-5 md:px-8 lg:px-12">
+      <div className="mx-auto flex h-18 max-w-content items-center gap-3 px-5 md:px-8 lg:px-12">
         <Link href="/" className="mr-auto flex min-h-11 items-center" aria-label="Redcord — úvodní stránka">
           <Wordmark />
         </Link>
@@ -129,7 +138,7 @@ export function Header({ nav, shopUrl, cta }: HeaderProps) {
         <a
           href={shopUrl}
           rel="noopener"
-          className="hidden min-h-11 items-center gap-1.5 rounded-full border border-line px-4 text-[15px] font-semibold hover:border-ink md:inline-flex"
+          className="hidden min-h-11 items-center gap-1.5 whitespace-nowrap rounded-full border border-line px-4 text-[15px] font-semibold hover:border-ink md:inline-flex"
         >
           E-shop
           <ExternalMark />
@@ -141,6 +150,13 @@ export function Header({ nav, shopUrl, cta }: HeaderProps) {
             <path d="m13 13 4.5 4.5" />
           </svg>
         </Link>
+        {bookingCta && (
+          // `max-sm:hidden`, not `hidden sm:inline-flex`: buttonClass already sets inline-flex, which beats plain `hidden`.
+          // Below 640px there's room for one header button; Rezervace is then in the menu.
+          <Link href={bookingCta.href} className={buttonClass("primary", "min-h-11 px-5 py-2 text-[15px] max-sm:hidden")}>
+            {bookingCta.label}
+          </Link>
+        )}
         <Link href={cta.href} className={buttonClass("dark", "hidden min-h-11 px-5 py-2 text-[15px] sm:inline-flex")}>
           {cta.label}
         </Link>
@@ -180,6 +196,11 @@ export function Header({ nav, shopUrl, cta }: HeaderProps) {
                 ))}
               </ul>
               <div className="mt-8 flex flex-wrap gap-3 border-t border-line pt-6">
+                {bookingCta && (
+                  <Link href={bookingCta.href} className={buttonClass("primary")}>
+                    {bookingCta.label}
+                  </Link>
+                )}
                 <Link href={cta.href} className={buttonClass("dark")}>
                   {cta.label}
                 </Link>

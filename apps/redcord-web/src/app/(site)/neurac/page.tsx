@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { referenceClinic } from "@redcord/content";
 import { ArrowLink, Card, ExternalMark, RuleQuote, Section, SectionHeading } from "@redcord/ui";
 import { PageIntro, ReviewOnly } from "@/components/blocks";
+import { site } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Metoda Neurac",
@@ -64,6 +65,9 @@ export default function NeuracPage() {
             <a href={referenceClinic.url} rel="noopener" className="mt-5 inline-flex min-h-11 items-center gap-2 font-semibold underline underline-offset-4">
               {referenceClinic.name} <ExternalMark />
             </a>
+            <ArrowLink href={site.external.clinicBooking.href} className="mt-2">
+              {site.external.clinicBooking.label}
+            </ArrowLink>
           </Card>
         </div>
       </Section>

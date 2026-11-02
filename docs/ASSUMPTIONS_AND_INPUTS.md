@@ -13,7 +13,7 @@ Status as of 1 November 2026, for the owner meeting on 2 November 2026.
 | Current course sessions, prices and registration authority | No real upcoming dates | 2020 programme archived. Illustrative sessions (flagged) demonstrate the UI. |
 | Safety documents (notices, care, inspection scope, training) | Safety pages have no body | Unavailable state plus service contact. No generated safety instructions. |
 | Practitioner publication consent | Directory is empty | Empty state; observed count and cities in a reviewer note only |
-| Redpoint booking URL | No booking link | `REDPOINT_BOOKING_URL` env; button hidden when unset |
+| Real clinic catalogue for booking (services, prices, therapists, hours, terms) | Booking runs on synthetic seed data | Embedded booking at `/rezervace/` with synthetic data and captured e-mail only (`docs/booking/README.md`) |
 | Privacy policy / cookie texts and paths | Placeholder pages | `/ochrana-osobnich-udaju/` and `/cookies/` as placeholders. Final paths still to agree. |
 | Enquiry handling (who receives, storage region, retention) | No production adapter | Test adapter only |
 
@@ -29,6 +29,7 @@ Status as of 1 November 2026, for the owner meeting on 2 November 2026.
 8. **Course price display:** 2020 prices appear only on archived cards, labelled "Cena 2020". Upcoming cards show "Na dotaz" unless an approved price exists.
 9. **Rate limiting** is in-memory per instance (prototype). Production needs a shared store.
 10. **Hero:** right-hand proof metrics are replaced by a list of services, because no metric is approved. Local-representation wording ("výhradní zastoupení") isn't used in the hero, only in the footer and contact details, which quote the current site.
+11. **Clinic booking embedded (decision, 2 Nov 2026).** The project lead chose to embed the existing Redpoint Booking v1 app in this site (`packages/booking`, `/rezervace/`) instead of linking to it externally, as brief §6 originally specified. It's the same booking app and database schema, moved rather than rebuilt. Domain and brand placement still need the owner's answer (`docs/booking/README.md`, "Open decisions").
 
 ## Source inconsistencies found (need owner answers)
 
@@ -51,7 +52,7 @@ Status as of 1 November 2026, for the owner meeting on 2 November 2026.
 - [ ] Practitioner list: consent, fields, review cadence
 - [ ] Shop backend/API access (PrestaShop) and deep-link policy
 - [ ] CMS editing workflow (draft/preview/publish, media ownership)
-- [ ] Existing booking URL/interface for Redpoint Clinic
+- [ ] Booking: domain/brand placement (redcord.cz/rezervace vs. booking.redpoint-clinic.cz), real catalogue, production stack, patient-data notice
 - [ ] Redirect and archive decisions (`docs/MIGRATION_MAP.md`)
 - [ ] Hosting and data region; enquiry handling and retention
 - [ ] Success metrics and consent approach
