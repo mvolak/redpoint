@@ -40,8 +40,28 @@ export function env(): Env {
   if (isDeployed && e.AUTH_PROVIDER === "dev") throw new Error("AUTH_PROVIDER=dev is not allowed in staging/production");
   if (isDeployed && e.EMAIL_PROVIDER !== "smtp") throw new Error("EMAIL_PROVIDER must be smtp in staging/production");
   if (e.APP_ENV === "production" && e.STAFF_REQUIRE_MFA !== "true") throw new Error("STAFF_REQUIRE_MFA must be true in production");
+  assertLocalIfDevelopment(e.APP_ENV, e.APP_URL, process.env);
   cached = e;
   return e;
+}
+
+const LOCAL_HOSTS = new Set(["localhost", "127.0.0.1", "[::1]"]);
+
+/**
+ * Development/test mode enables dev staff login, the captured-mail inbox (/rezervace/dev/mailbox,
+ * which shows OTP codes) and dev hints. That must never be reachable from the internet, so it is
+ * only allowed when APP_URL is a loopback host and the process isn't running on a known host
+ * (Vercel). A deployment that forgets APP_ENV fails closed instead of exposing the inbox.
+ */
+export function assertLocalIfDevelopment(appEnv: Env["APP_ENV"], appUrl: string, processEnv: NodeJS.ProcessEnv): void {
+  if (appEnv !== "development" && appEnv !== "test") return;
+  const host = new URL(appUrl).hostname;
+  if (!LOCAL_HOSTS.has(host)) {
+    throw new Error(`APP_ENV=${appEnv} requires APP_URL on localhost (got ${host}); set APP_ENV=staging or production`);
+  }
+  if (processEnv.VERCEL) {
+    throw new Error(`APP_ENV=${appEnv} is not allowed on Vercel; set APP_ENV=staging or production`);
+  }
 }
 
 /**

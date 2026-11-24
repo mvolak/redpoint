@@ -60,6 +60,7 @@ apps/redcord-web/src/app/
 - **Layout:** patient pages use the Redcord header, footer and review banner. The booking `Header` and root layout were dropped. The design tokens (`brand`, `ink`, `muted`, `line`, `surface`) map onto Redcord's tokens, so the booking UI picks up Redcord colours and Inter.
 - **Headers:** the booking CSP, `X-Frame-Options: DENY`, `no-referrer` on `/rezervace/sprava/` and `noindex` for admin/dev/API are applied **only to booking paths** (`next.config.ts`).
 - **Environment:** shared with the site, in one `.env.local`. Booking variables (`APP_URL`, `APP_ENV`, `DATABASE_URL`, `APP_SECRET`, …) don't collide with the site's (`SITE_ENV`, `SITE_ORIGIN`, …).
+- **Dev mode is localhost-only.** `APP_ENV=development|test` turns on dev staff login and the captured-mail inbox (which shows OTP codes). `env()` refuses it unless `APP_URL` is `localhost`/`127.0.0.1`/`[::1]` and `VERCEL` is unset, so a deployment that forgets `APP_ENV` fails with an error instead of exposing the inbox. Deployments set `APP_ENV=staging` or `production`.
 - **No database:** `bookingConfigured()` gates pages and API routes when the database or secret is missing.
 - **Tooling:** vitest moved from 4.0.18 to 5.0.5 workspace-wide to match the booking tests. npm was replaced by pnpm.
 - **Unchanged:** domain logic, the SQL schema and the tests. Only URL strings were rewritten.

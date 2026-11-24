@@ -37,6 +37,7 @@ Next 16.4 / React 19.3 / Tailwind 4.3 differ from older training data (async `pa
 - Package source uses **relative imports only**. In the app, `@/` means `apps/redcord-web/src`, so a booking file importing `@/…` would resolve to the wrong place. Tests may use `@/`.
 - Client calls go through `api()` in `lib/client-api.ts`, which adds the trailing slash (`trailingSlash: true`).
 - Pages and routes must keep working without `DATABASE_URL`/`APP_SECRET` (`bookingConfigured()`).
+- `APP_ENV=development|test` is refused unless `APP_URL` is loopback and `VERCEL` is unset (`assertLocalIfDevelopment` in `lib/env.ts`). Don't weaken it: dev mode exposes OTP codes at `/rezervace/dev/mailbox/`.
 - The booking wizard renders its own H1 per step. Don't add another H1 on `/rezervace/`.
 - Don't copy redcord.com / Wix code, fonts or images. redcord.cz content is owner-authorised (owner: AHAMA).
 
