@@ -16,7 +16,7 @@
     "@redcord/integrations": "workspace:*",
     "@redcord/ui": "workspace:*",
     "drizzle-orm": "0.45.4",
-    "next": "16.4.3",
+    "next": "16.4.6",
     "nodemailer": "7.0.13",
     "postgres": "3.4.9",
     "react": "19.3.1",
