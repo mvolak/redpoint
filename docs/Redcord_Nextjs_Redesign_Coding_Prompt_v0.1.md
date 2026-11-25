@@ -1,5 +1,7 @@
 # Redcord.cz Next.js renewal — coding-bot brief
 
+> Czech version: `Redcord_Nextjs_Redesign_Coding_Prompt_v0.1_CZ.md`.
+
 Version 0.1 · 1 November 2026 · Meeting reference: 2 November 2026
 
 Use with `Redcord_CZ_Current_Site_Inventory_v0.1.md`. This is a proposed build contract. It distinguishes current evidence from proposed features and a meeting prototype from a production service.

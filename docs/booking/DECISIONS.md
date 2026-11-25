@@ -1,5 +1,7 @@
 # Decision log
 
+> Czech version: `DECISIONS_CZ.md`.
+
 Status: **D** = decided for v1 development · **C** = must be confirmed by the clinic before production (spec §16).
 
 | # | Date | Decision | Status |

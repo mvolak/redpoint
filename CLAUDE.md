@@ -62,3 +62,4 @@ Its WAF answers 401/429 when hit hard. Scripts crawl at 1 req/s, cache under `in
 
 - Enquiry rate limit (5 per 10 min) is in memory. Restart the server between `pnpm review` runs.
 - Docs to keep current: `docs/ASSUMPTIONS_AND_INPUTS.md`, `MIGRATION_MAP.md`, `ASSET_MANIFEST.md`, `PRODUCTION_BACKLOG.md`, `VERIFICATION.md`.
+- Owner-facing docs have a Czech copy `*_CZ.md` next to them (the English file is authoritative). When you change a doc that has one, update the `_CZ` file in the same change. Czech copies keep headings, table headers, status values, bold lead terms and anything in backticks in English. Technical docs (`VERIFICATION.md`, `booking/API.md`, `DEPLOYMENT.md`, `BACKUP_RESTORE.md`, `WORDPRESS_INTEGRATION.md`) are English only.

@@ -1,5 +1,7 @@
 # Asset manifest
 
+> Czech version: `ASSET_MANIFEST_CZ.md`.
+
 ## Image workflow
 
 Every image position is a **slot** defined in `packages/content/src/media/slots.json` (id, page, brief, ratio, minimum width). Pages render `<Media slot="…">`, which shows the assigned photo, or a labelled placeholder when there isn't one.

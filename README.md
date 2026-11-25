@@ -27,7 +27,7 @@ pnpm dev                                      # http://localhost:3000
 | `pnpm db:up` / `db:migrate` / `db:seed` / `worker` / `test:booking` | Embedded clinic booking: local Postgres (Docker), synthetic seed, outbox worker, 62 DB integration tests. See `docs/booking/README.md`. |
 | `pnpm review` | With a server on :3000: screenshots at 390/768/1440 into `review-screenshots/`, overflow, H1, keyboard and form checks. Uses the locally installed Chrome. **Restart the server between runs.** The enquiry rate limit (5 attempts / 10 min) is in memory and real. |
 
-Pinned versions (checked 1 Nov 2026): Next.js 16.4.3, React 19.3.1, Tailwind CSS 4.3.3, TypeScript 5.9.3, Vitest 4.0.18. TypeScript 7 exists, but 5.9 is used for Next.js compatibility.
+Pinned versions (checked 24 Nov 2026): Next.js 16.4.6, React 19.3.1, Tailwind CSS 4.3.3, TypeScript 5.9.3, Vitest 5.0.5. TypeScript 7 exists, but 5.9 is used for Next.js compatibility.
 
 ## Repository layout
 
@@ -86,3 +86,6 @@ Design tokens are in `packages/ui/src/tokens.css`. Only `#c8102e` (CTA red) and 
 - `docs/PRODUCTION_BACKLOG.md`: backlog grouped by catalogue, education, shop, support, CMS, SEO, clinic reuse
 - `docs/booking/`: embedded clinic booking: setup, paths, open decisions, plus the original booking docs
 - `docs/VERIFICATION.md`: what was verified, and known gaps
+- `docs/EMAIL.md`: how email/SMTP works now (test inbox, Mailtrap sandbox) and the path to real delivery
+- Owner-facing docs have a Czech copy `*_CZ.md` next to them (English is authoritative)
+- `docs/FEATURE_AREAS.md`: map of feature areas and standalone topics, for planning further work (Czech version: `FEATURE_AREAS_CZ.md`)
