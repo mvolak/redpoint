@@ -1,5 +1,7 @@
 # Redpoint Booking v1 — initial implementation specification
 
+> Czech version: `Redpoint_Booking_v1_Initial_Spec_CZ.md`.
+
 Version: 0.1 · 1 November 2026 · Status: proposed scope for coding
 
 ## 1. Objective

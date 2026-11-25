@@ -1,5 +1,7 @@
 # Route migration map (draft)
 
+> Czech version: `MIGRATION_MAP_CZ.md`.
+
 The machine-readable source is `apps/redcord-web/src/config/redirects.ts`, tested in `redirects.test.ts`: unique sources, existing targets, no chains, no homepage blanket, and declared anchors.
 In preview, `proposed` rules become **temporary (307)** redirects. Only `decided` rules become permanent (308). Unknown URLs return 404, never the homepage.
 

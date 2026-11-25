@@ -1,5 +1,7 @@
 # Production backlog and dependencies
 
+> Czech version: `PRODUCTION_BACKLOG_CZ.md`.
+
 Phase B of the brief. Every item depends on owner inputs (see `ASSUMPTIONS_AND_INPUTS.md`). "Dep" lists what blocks the item.
 
 ## Catalogue

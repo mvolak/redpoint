@@ -1,5 +1,7 @@
 # Redpoint Clinic booking — embedded in the Redcord site
 
+> Czech version: `README_CZ.md`.
+
 The standalone **Redpoint Booking v1** app (`C:\repo\booking`, commit `9fde9a9`) was moved into this monorepo on 2 November 2026 and is now served by `apps/redcord-web` under `/rezervace/`. The other documents in this folder come from that repo. They still describe it as a standalone app on `booking.redpoint-clinic.cz` with paths like `/manage` and `/api/...`. The **path table below takes precedence** over them.
 
 > All seed data is **synthetic** (services, therapists, prices, hours, staff). Nothing is deployed and no e-mail is sent: the `capture` provider stores mail in the database.

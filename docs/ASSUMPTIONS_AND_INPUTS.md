@@ -1,6 +1,8 @@
 # Assumptions, missing inputs and owner decisions
 
-Status as of 1 November 2026, for the owner meeting on 2 November 2026.
+> Czech version: `ASSUMPTIONS_AND_INPUTS_CZ.md`.
+
+Status as of 24 November 2026. First prepared for the owner meeting on 2 November 2026.
 
 ## Missing inputs
 
